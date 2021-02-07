@@ -1,24 +1,5 @@
-# README
+# 開発レシピ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+主にこれから実装する機能の動きの確認、振り返りなどに使用します。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[web屋 和賀井](https://webya-wagai.jp/)
