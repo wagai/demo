@@ -24,7 +24,7 @@ module Demo
                        helper_specs: false,
                        routing_specs: false,
                        controller_specs: false
-      config.generators.system_tests = nil
+      g.fixture_replacement :factory_bot, dir: "spec/factories"
     end
     config.generators.system_tests = nil
   end
