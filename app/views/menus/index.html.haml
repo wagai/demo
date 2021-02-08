@@ -1,17 +1,21 @@
+= javascript_pack_tag "views/menus/index", "data-turbolinks-track": "reload"
 %h1 Listing menus
 
 %table
   %thead
     %tr
+      %th
       %th Title
       %th Price
       %th
       %th
       %th
 
-  %tbody
+  %tbody#js-sortable-menus
     - @menus.each do |menu|
       %tr
+        %td
+          %i.handle ■
         %td= menu.title
         %td= menu.price
         %td= link_to "Show", menu
