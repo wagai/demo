@@ -26,6 +26,7 @@ end
 
 group :development do
   gem "git-pr-release", require: false
+  gem "haml-lint"
   gem "listen", "~> 3.3"
   gem "rack-mini-profiler", "~> 2.0"
   gem "rubocop-rails"

@@ -1,0 +1,9 @@
+linters:
+  LineLength:
+    max: 120
+
+  RuboCop:
+    enabled: true
+    ignored_cops:
+      - Layout/TrailingEmptyLines
+      - Lint/Void
