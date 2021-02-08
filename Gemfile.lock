@@ -71,6 +71,7 @@ GEM
     colorize (0.8.1)
     concurrent-ruby (1.1.8)
     crass (1.0.6)
+    database_rewinder (0.9.4)
     diff-lcs (1.4.4)
     erubi (1.10.0)
     factory_bot (6.1.0)
@@ -254,6 +255,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
+  database_rewinder
   factory_bot_rails
   git-pr-release
   jbuilder (~> 2.7)

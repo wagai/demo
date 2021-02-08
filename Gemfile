@@ -18,6 +18,10 @@ group :development, :test do
   gem "rspec-rails"
 end
 
+group :test do
+  gem "database_rewinder"
+end
+
 group :development do
   gem "git-pr-release", require: false
   gem "listen", "~> 3.3"
