@@ -9,7 +9,7 @@ $(document).on('turbolinks:load', function () {
         animation: 150,
         onUpdate: function (evt) {
             return $.ajax({
-                url: `/api/menus/${evt.oldIndex}`,
+                url: `/api/menu/positions/${evt.oldIndex}`,
                 type: 'patch',
                 data: {
                     from: evt.oldIndex,

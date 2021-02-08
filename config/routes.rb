@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :menus
 
   namespace :api do
-    resources :menus, only: [:update]
+    namespace :menu do
+      resources :positions, only: [:update]
+    end
   end
 end
