@@ -22,6 +22,7 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
   gem "git-pr-release", require: false
+  gem "rubocop-rails"
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
