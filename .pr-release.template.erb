@@ -1,0 +1,5 @@
+## Pull Requests
+
+<% pull_requests.each do |pr| -%>
+  - <%= "#{pr.pr[:title]} ([##{pr.pr[:number]}](#{pr.html_link}))" %>
+<% end -%>
