@@ -3,6 +3,7 @@ git_source(:github) {|repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.0"
 
+gem "acts_as_list"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "hamlit-rails"
 gem "jbuilder", "~> 2.7"
