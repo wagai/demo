@@ -19,7 +19,8 @@ group :development, :test do
 end
 
 group :test do
-  gem "database_rewinder"
+  gem "capybara"
+  gem "cuprite"
 end
 
 group :development do
