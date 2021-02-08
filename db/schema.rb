@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2021_02_08_190651) do
     t.integer "price", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "position"
+    t.integer "position", null: false
     t.index ["position"], name: "index_menus_on_position"
   end
 
