@@ -108,6 +108,10 @@ GEM
       octokit
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    hamlit (2.14.4)
+      temple (>= 0.8.2)
+      thor
+      tilt
     highline (2.0.3)
     i18n (1.8.8)
       concurrent-ruby (~> 1.0)
@@ -242,6 +246,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -277,6 +282,7 @@ DEPENDENCIES
   cuprite
   factory_bot_rails
   git-pr-release
+  hamlit
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
