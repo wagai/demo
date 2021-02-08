@@ -1,5 +1,4 @@
 import Sortable from 'sortablejs';
-require("jquery")
 
 $(document).on('turbolinks:load', function () {
     const el = document.getElementById('js-sortable-menus');
