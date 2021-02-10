@@ -1,11 +1,11 @@
 import Sortable from 'sortablejs';
 
-$(document).on('turbolinks:load', function () {
+$(function() {
     const el = document.getElementById('js-sortable-menus');
     new Sortable(el, {
         handle: "i.handle",
         axis: 'y',
-        animation: 150,
+        animation: 300,
         onUpdate: function (evt) {
             return $.ajax({
                 url: `/api/menu/positions/${evt.oldIndex}`,
